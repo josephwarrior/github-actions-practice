@@ -2,7 +2,7 @@ name: basic-text-output
 on: workflow_dispatch
 jobs:
   first-job:
-    runs-on: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - name: Printing greeting
         run: echo "Hola Jose"
